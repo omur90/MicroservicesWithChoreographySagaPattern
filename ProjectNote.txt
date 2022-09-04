@@ -1,0 +1,5 @@
+﻿
+
+
+=>  Rabbit MQ tarafında publish yaparsak exchange dinleme yapar eğer exchange de subribe olmuş ise message işlenir.
+Fakat SEND yaparsak queue adını belirttiğimiz için kaybolmaz consume eden kısım ayakta olduğu taktirde message'lar işlenir.

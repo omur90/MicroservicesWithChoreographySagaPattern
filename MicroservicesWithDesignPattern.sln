@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Order.API", "Order.API\Order.API.csproj", "{200579D7-E036-4CBA-AA55-FEEC7367559C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payment.API", "Payment.API\Payment.API.csproj", "{FE1B12EF-8C9F-40A2-BEE9-A3AA28332C52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stock.API", "Stock.API\Stock.API.csproj", "{B4557BC0-A715-4FE7-888F-E2CF7E0F445A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{F38BFC5A-0F60-40D6-9990-97DD3D0542B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0106090D-704D-49DD-AC8A-157618C752F5}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		graph.png = graph.png
+		MicroservicesWithDesignPattern.postman_collection.json = MicroservicesWithDesignPattern.postman_collection.json
+		ProjectNote.txt = ProjectNote.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{200579D7-E036-4CBA-AA55-FEEC7367559C}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{200579D7-E036-4CBA-AA55-FEEC7367559C}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{200579D7-E036-4CBA-AA55-FEEC7367559C}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{200579D7-E036-4CBA-AA55-FEEC7367559C}.Release|anycpu.Build.0 = Release|Any CPU
+		{FE1B12EF-8C9F-40A2-BEE9-A3AA28332C52}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{FE1B12EF-8C9F-40A2-BEE9-A3AA28332C52}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{FE1B12EF-8C9F-40A2-BEE9-A3AA28332C52}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{FE1B12EF-8C9F-40A2-BEE9-A3AA28332C52}.Release|anycpu.Build.0 = Release|Any CPU
+		{B4557BC0-A715-4FE7-888F-E2CF7E0F445A}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{B4557BC0-A715-4FE7-888F-E2CF7E0F445A}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{B4557BC0-A715-4FE7-888F-E2CF7E0F445A}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{B4557BC0-A715-4FE7-888F-E2CF7E0F445A}.Release|anycpu.Build.0 = Release|Any CPU
+		{F38BFC5A-0F60-40D6-9990-97DD3D0542B6}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{F38BFC5A-0F60-40D6-9990-97DD3D0542B6}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{F38BFC5A-0F60-40D6-9990-97DD3D0542B6}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{F38BFC5A-0F60-40D6-9990-97DD3D0542B6}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72971062-2530-41EA-8CED-3AED1F3863EB}
+	EndGlobalSection
+EndGlobal

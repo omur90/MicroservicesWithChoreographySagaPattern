@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "e22baf8b-d1ec-4a29-b02f-00e8bb12c72d",
+		"name": "MicroservicesWithDesignPattern",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19774463"
+	},
+	"item": [
+		{
+			"name": "OrderAPI",
+			"item": [
+				{
+					"name": "OrderCreate",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"buyerId\" :\"userOmur90\",\n    \"orderItems\" : [\n         {\n              \"productId\": 1,\n              \"count\":70,\n              \"price\":100\n         }\n    ],\n    \"payment\": {\n         \"cardName\":\"testCardName\",\n         \"cardNumber\":\"123456789\",\n         \"expiration\":\"2022-12-12\",\n         \"cvv\":\"876\"\n    },\n    \"address\": {\n         \"line\":\"seyrantepe\",\n         \"province\":\"kağıthane\",\n         \"district\":\"levent\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/orders/Create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"orders",
+								"Create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "StockAPI",
+			"item": [
+				{
+					"name": "GetStock",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5002/api/stocks/GetStock",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5002",
+							"path": [
+								"api",
+								"stocks",
+								"GetStock"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
